@@ -1,49 +1,58 @@
- [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mpr213/lecture-notes)
- 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mpr213/lecture-notes)
+
+
 # Info
-The lecture notes for MPR213.
+The lecture notes for MPR213 (Programming and Information Technology)
+
+Faculty of Engineering, Built Environment and Information Technology
+
+[Department of Mechanical and Aeronautical Engineering](www.me.up.ac.za)
+
+[University of Pretoria](www.up.ac.za)
+
+
+## Software
+- These lecture notes are designed to be viewed using
+  [Jupyter](https://jupyter.org) which can easily be installed through
+  [Anaconda](https://www.continuum.io/downloads)
+- All examples in the lecture notes are written / developed using Python3.5
+- To open Jupyter from a specific folder in Windows please refer to
+  [this](https://youtu.be/JId0f7URtOQ) video
+
 
 ## Lectures
 ### General
-- 160 hours
-- 48 lectures
+- 160 hours (16 credits)
+- 48 lectures (4 hours per week, 12 weeks)
 
 ### Lecture Breakdown
-- [Week  1] Introduction, Basic Calculator, Names, Object, Assignment,
-    Swopping Objects, Basic Lists (range and creating custom), Memory Models.
-- [Week  2] For-Loop
-- [Week  3] While-Loop
-- [Week  4] If-Elif-Else Statements
-- [Week  5] Iterating Over Lists, Growing Lists + Loops
-- [Week  6] Modules and Scripts, Namespace, User-defined Function
-- [Week  7] Nested Structures (Fors, Whiles, Ifs), Nested Lists,
-    Use of Functions
-- [Week  7] Group project, Plagiarism Talk, Get Going
-- [Week  8] Libre Office Calc - Example + Experimental Data Driven
-- [Week  9] Libre Office Calc - Example + Experimental Data Driven
-- [Week 10] Plotting (with explicit numpy) and Data Handling
-- [Week 11] Built-in Advanced Functions, GUI's
-- [Week 12] Recap and buffer week, Group Project Feedback
+- [Week 1] Introduction, Basic Calculator, Names, Object and Assignment, Memory
+  Models, Functions
+- [Week 2] Basic Arrays, For-Loop
+- [Week 3] While-Loop, Growing Lists
+- [Week 4] Branching
+- [Week 5] Aditional Examples (Problem Solving)
+- [Week 6] Aditional Examples (Problem Solving)
+- [Week 7] Group project - Plagiarism Talk + Getting Going
+- [Week 8] Libre Office Calc - Example + Experimental Data Driven
+- [Week 9] Plotting, Matrices
+- [Week 10] Reading and Writing Data (Pandas)
+- [Week 11] Advanced Built-in Functions (Numpy and Scipy)
+- [Week 12] GUI's, Recap and buffer week, Group Project Feedback
 
-## Fundementals
+
+## Fundamentals
 ### Must be in Place to Pass
-1. Names, Objects, and Assignment
-2. Basic Structures (For-Loop, While-Loop, If-Statements)
-3. Basic Lists (Iterating Over, Growing)
-4. Basic Plotting
-6. Importing Modules and Basic Usage
-5. Functions (Using Existing, Creating Custom)
+1. Names, Objects and Assignment
+2. Importing Modules and Usage
+3. Functions (Using Existing, Creating Custom)
+4. Basic Structures (For-Loop, While-Loop, If-Statements)
+5. Basic Arrays and Lists (Usage, Iterating Over, Growing)
+6. Basic Plotting
 
 ### Need to Ensure
-1. Tests and Exams Outcomes --> Only pass when above points are in place
+1. Tests and Exams Outcomes --> Only pass when above fundamentals are in place
 2. Teaching Outcomes --> Align with the fundementals
 3. Tutorials Outcomes --> Align with the fundementals
 4. Basic and advanced / extra outcomes --> Make sure that advanced / extra
-    outcomes do not interfere with basic outcomes - when in doubt throw it out!
-
-
-# Contributing
-1. Clone the project
-2. Create a new local branch to make the changes on
-3. Push that branch to the server
-4. Logon to the Gitlab webpage and create a merge request
+   outcomes do not interfere with basic outcomes - when in doubt throw it out!
