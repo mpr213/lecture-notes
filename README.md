@@ -1,3 +1,5 @@
+ [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mpr213/lecture-notes)
+ 
 # Info
 The lecture notes for MPR213.
 
