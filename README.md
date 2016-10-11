@@ -6,9 +6,9 @@ The lecture notes for MPR213 (Programming and Information Technology)
 
 Faculty of Engineering, Built Environment and Information Technology
 
-[Department of Mechanical and Aeronautical Engineering](www.me.up.ac.za)
+[Department of Mechanical and Aeronautical Engineering](http://www.me.up.ac.za)
 
-[University of Pretoria](www.up.ac.za)
+[University of Pretoria](http://www.up.ac.za)
 
 
 ## Software
