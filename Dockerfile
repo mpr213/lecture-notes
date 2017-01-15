@@ -3,10 +3,10 @@ FROM andrewosh/binder-base
 MAINTAINER Logan G. Page <logan.page@up.ac.za>
 
 # Update form requirements
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 # Install and enable extensions
-RUN pip install nbtutor
+RUN pip3 install nbtutor
 RUN jupyter nbextension install --sys-prefix --py nbtutor
 RUN jupyter nbextension enable --sys-prefix --py nbtutor
 
