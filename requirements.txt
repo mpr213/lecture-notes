@@ -3,4 +3,5 @@ jupyter
 jupyter_core
 jupyter_client
 notebook>=4.2
+nbtutor
 six
