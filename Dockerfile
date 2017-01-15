@@ -6,7 +6,7 @@ MAINTAINER Logan G. Page <logan.page@up.ac.za>
 RUN pip install -r requirements.txt
 
 # Install and enable extensions
-RUN pip install git+git://github.com/lgpage/nbtutor.git
+RUN pip install nbtutor
 RUN jupyter nbextension install --sys-prefix --py nbtutor
 RUN jupyter nbextension enable --sys-prefix --py nbtutor
 
