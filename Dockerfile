@@ -2,8 +2,8 @@ FROM andrewosh/binder-base
 
 MAINTAINER Logan G. Page <logan.page@up.ac.za>
 
-# Update notebook
-RUN pip install --upgrade notebook
+# Update form requirements
+RUN pip install -r requirements.txt
 
 # Install and enable extensions
 RUN pip install git+git://github.com/lgpage/nbtutor.git
