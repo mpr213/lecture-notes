@@ -18,6 +18,16 @@ Faculty of Engineering, Built Environment and Information Technology
 - All examples in the lecture notes are written / developed using Python3.5
 - To open Jupyter from a specific folder in Windows please refer to
   [this](https://youtu.be/JId0f7URtOQ) video
+- These lecture notes also make use of the notebook extension
+  [nbtutor](https://github.com/lgpage/nbtutor) which can be installed by:
+  - First installing [Anaconda](https://www.continuum.io/downloads)
+  - Then openning the Windows Command Prompt as Administrator
+    (Refer to [this](https://www.youtube.com/watch?v=btg5hYs72gc) video)
+  - Then, in the Command Prompt, type the following and hit enter:
+  ```
+  conda install -c conda-forge nbtutor
+  ```
+  - Note: Installing ``nbtutor`` requires an internet connection
 
 
 ## Lectures
