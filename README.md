@@ -15,7 +15,7 @@ Faculty of Engineering, Built Environment and Information Technology
 - These lecture notes are designed to be viewed using
   [Jupyter](https://jupyter.org) which can easily be installed through
   [Anaconda](https://www.continuum.io/downloads)
-- All examples in the lecture notes are written / developed using Python3.5
+- All examples in the lecture notes are written / developed using Python 3.6
 - To open Jupyter from a specific folder in Windows please refer to
   [this](https://youtu.be/JId0f7URtOQ) video
 - These lecture notes also make use of the notebook extension
