@@ -67,17 +67,39 @@ def convert_notebooks(ctx):
 
 
 @task
-def clean_notebooks(ctx):
+def clean_sphinx(ctx):
     print("Removing .rst files in 'sphinx'...")
     run(ctx, 'git clean -fdx sphinx')
 
 
 @task
-def check_notebooks(ctx, skip_setup=False):
-    if not skip_setup:
-        print("Running setup...")
-        execute_notebooks()
-        convert_notebooks()
+def clear_notebooks_output(ctx):
+    """Clear output from notebooks cells"""
+    root = os.path.abspath(os.getcwd())
+    print("Clearing output from notebook cells...")
+
+    cwd = os.getcwd()
+    os.chdir(root)
+
+    for filename in sorted(glob.glob('*.ipynb')):
+        run(ctx, ' '.join([
+            sys.executable, '-m', 'jupyter', 'nbconvert',
+            '--inplace',
+            '--to', 'ipynb',
+            '--ClearOutputPreprocessor.enabled=True',
+            filename
+        ]))
+
+    os.chdir(cwd)
+
+
+@task
+def check_notebooks(ctx, skip_execute=False):
+    print("Running setup...")
+    clean_sphinx(ctx)
+    if not skip_execute:
+        execute_notebooks(ctx)
+    convert_notebooks(ctx)
     print("Checking notebooks...")
     run(ctx, 'make -C sphinx spelling')
     run(ctx, 'make -C sphinx linkcheck')

@@ -1,5 +1,6 @@
 -r requirements.txt
 invoke
+nbconvert
 pyenchant
 sphinx
 sphinx_rtd_theme
