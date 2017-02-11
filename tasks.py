@@ -69,7 +69,7 @@ def convert_notebooks(ctx):
 @task
 def clean_notebooks(ctx):
     print("Removing .rst files in 'sphinx'...")
-    run(ctx, 'git clean -fdX sphinx')
+    run(ctx, 'git clean -fdx sphinx')
 
 
 @task
