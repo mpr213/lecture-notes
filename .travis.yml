@@ -1,0 +1,17 @@
+language: python
+sudo: false
+
+python:
+  - 3.5
+
+addons:
+  apt:
+    packages:
+    - pandoc
+    - enchant
+
+install:
+  - pip install -r requirements-dev.txt
+
+script:
+  - invoke check_notebooks
