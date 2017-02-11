@@ -44,6 +44,8 @@ except ImportError:
 else:
     extensions.append("sphinxcontrib.spelling")
 
+spelling_lang='en_GB'
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
