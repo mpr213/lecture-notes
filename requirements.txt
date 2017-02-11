@@ -1,7 +1,11 @@
-traitlets
 jupyter
-jupyter_core
 jupyter_client
-notebook>=4.2
+jupyter_core
+matplotlib
 nbtutor
+notebook>=4.2
+numpy
+pandas
+scipy
 six
+traitlets

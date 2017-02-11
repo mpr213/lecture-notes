@@ -1,0 +1,15 @@
+language: python
+sudo: true
+
+python:
+  - 3.5
+
+before_install:
+    - sudo apt-get -qq update
+    - sudo apt-get install -y pandoc enchant
+
+install:
+  - pip install -r requirements-dev.txt
+
+script:
+  - invoke check_notebooks
