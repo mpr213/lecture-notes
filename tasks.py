@@ -20,9 +20,6 @@ def execute_notebooks(ctx):
     root = os.path.abspath(os.getcwd())
     print("Executing notebooks...")
 
-    cwd = os.getcwd()
-    os.chdir(root)
-
     for filename in sorted(glob.glob('*.ipynb')):
         if 'demo' in filename.lower():
             continue
@@ -35,8 +32,6 @@ def execute_notebooks(ctx):
             filename
         ]))
 
-    os.chdir(cwd)
-
 
 @task
 def convert_notebooks(ctx):
@@ -44,10 +39,10 @@ def convert_notebooks(ctx):
     root = os.path.abspath(os.getcwd())
     print("Converting notebooks...")
 
-    cwd = os.getcwd()
-    os.chdir(root)
-
     for filename in sorted(glob.glob('*.ipynb')):
+        if 'demo' in filename.lower():
+            continue
+
         run(ctx, ' '.join([
             sys.executable, '-m', 'jupyter', 'nbconvert',
             '--to', 'rst',
@@ -63,8 +58,6 @@ def convert_notebooks(ctx):
         with open(filename, 'w') as fh:
             fh.write(source)
 
-    os.chdir(cwd)
-
 
 @task
 def clean_sphinx(ctx):
@@ -73,31 +66,37 @@ def clean_sphinx(ctx):
 
 
 @task
-def clear_notebooks_output(ctx):
-    """Clear output from notebooks cells"""
+def clear_cells_output(ctx, what='all'):
+    """Clear output from notebook cells"""
     root = os.path.abspath(os.getcwd())
     print("Clearing output from notebook cells...")
 
-    cwd = os.getcwd()
-    os.chdir(root)
+    if what == 'all':
+        for filename in sorted(glob.glob('*.ipynb')):
+            run(ctx, ' '.join([
+                sys.executable, '-m', 'jupyter', 'nbconvert',
+                '--inplace',
+                '--to', 'ipynb',
+                '--ClearOutputPreprocessor.enabled=True',
+                filename
+            ]))
 
-    for filename in sorted(glob.glob('*.ipynb')):
+    else:
         run(ctx, ' '.join([
             sys.executable, '-m', 'jupyter', 'nbconvert',
             '--inplace',
             '--to', 'ipynb',
             '--ClearOutputPreprocessor.enabled=True',
-            filename
+            what
         ]))
-
-    os.chdir(cwd)
 
 
 @task
-def check_notebooks(ctx, skip_execute=False):
+def check_notebooks(ctx, execute=False):
     print("Running setup...")
     clean_sphinx(ctx)
-    if not skip_execute:
+    clear_cells_output(ctx)
+    if execute:
         execute_notebooks(ctx)
     convert_notebooks(ctx)
     print("Checking notebooks...")
