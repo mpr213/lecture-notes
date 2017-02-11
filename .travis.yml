@@ -1,12 +1,12 @@
 language: python
-sudo: false
+sudo: true
 
 python:
   - 3.5
 
 before_install:
-    - apt-get -qq update
-    - apt-get install -y pandoc enchant
+    - sudo apt-get -qq update
+    - sudo apt-get install -y pandoc enchant
 
 install:
   - pip install -r requirements-dev.txt
