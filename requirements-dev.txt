@@ -1,0 +1,6 @@
+-r requirements.txt
+invoke
+pyenchant
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-spelling
