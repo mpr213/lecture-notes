@@ -21,7 +21,7 @@ Faculty of Engineering, Built Environment and Information Technology
 - These lecture notes also make use of the notebook extension
   [nbtutor](https://github.com/lgpage/nbtutor) which can be installed by:
   - First installing [Anaconda](https://www.continuum.io/downloads)
-  - Then openning the Windows Command Prompt as Administrator
+  - Then opening the Windows Command Prompt as Administrator
     (Refer to [this](https://www.youtube.com/watch?v=btg5hYs72gc) video)
   - Then, in the Command Prompt, type the following and hit enter:
   ```
@@ -41,8 +41,8 @@ Faculty of Engineering, Built Environment and Information Technology
 - [Week 2] Basic Arrays, For-Loop
 - [Week 3] While-Loop, Growing Lists
 - [Week 4] Branching
-- [Week 5] Aditional Examples (Problem Solving)
-- [Week 6] Aditional Examples (Problem Solving)
+- [Week 5] Additional Examples (Problem Solving)
+- [Week 6] Additional Examples (Problem Solving)
 - [Week 7] Group project - Plagiarism Talk + Getting Going
 - [Week 8] Libre Office Calc - Example + Experimental Data Driven
 - [Week 9] Plotting, Matrices
@@ -62,7 +62,7 @@ Faculty of Engineering, Built Environment and Information Technology
 
 ### Need to Ensure
 1. Tests and Exams Outcomes --> Only pass when above fundamentals are in place
-2. Teaching Outcomes --> Align with the fundementals
-3. Tutorials Outcomes --> Align with the fundementals
+2. Teaching Outcomes --> Align with the fundamentals
+3. Tutorials Outcomes --> Align with the fundamentals
 4. Basic and advanced / extra outcomes --> Make sure that advanced / extra
    outcomes do not interfere with basic outcomes - when in doubt throw it out!
