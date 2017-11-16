@@ -1,0 +1,6 @@
+#!/bin/bash
+
+jupyter-nbextension install --sys-prefix --py nbtutor
+jupyter-nbextension enable --sys-prefix --py nbtutor
+
+jupyter trust *.ipynb
