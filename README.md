@@ -48,7 +48,7 @@ Faculty of Engineering, Built Environment and Information Technology
 - [Week 9] Plotting, Matrices
 - [Week 10] Reading and Writing Data (Pandas)
 - [Week 11] Advanced Built-in Functions (Numpy and Scipy)
-- [Week 12] GUI's, Recap and buffer week, Group Project Feedback
+- [Week 12] GUIs, Recap and buffer week, Group Project Feedback
 
 
 ## Fundamentals
