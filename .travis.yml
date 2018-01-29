@@ -12,4 +12,4 @@ install:
   - pip install -r requirements-dev.txt
 
 script:
-  - invoke check_notebooks
+  - invoke check-notebooks
