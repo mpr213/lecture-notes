@@ -14,15 +14,15 @@ Faculty of Engineering, Built Environment and Information Technology
 ## Software
 - These lecture notes are designed to be viewed using
   [Jupyter](https://jupyter.org) which can easily be installed through
-  [Anaconda](https://www.continuum.io/downloads)
+  [Anaconda](https://www.anaconda.com/downloads)
 - All examples in the lecture notes are written / developed using Python 3
 - To open Jupyter from a specific folder in Windows please refer to
-  [this](https://youtu.be/JId0f7URtOQ) video
+  [this](https://youtu.be/yCAWLgoo94Y) video
 - These lecture notes also make use of the notebook extension
   [nbtutor](https://github.com/lgpage/nbtutor) which can be installed by:
-  - First installing [Anaconda](https://www.continuum.io/downloads)
-  - Then opening the Windows Command Prompt as Administrator
-    (Refer to [this](https://www.youtube.com/watch?v=btg5hYs72gc) video)
+  - First installing [Anaconda](https://www.anaconda.com/downloads)
+  - Then opening the Windows Command Prompt (Refer to
+    [this](ihttps://youtu.be/FeUCOh7fE7s) video)
   - Then, in the Command Prompt, type the following and hit enter:
   ```
   conda install -c conda-forge nbtutor
