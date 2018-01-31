@@ -21,10 +21,12 @@ Numpy
 PhD
 Pieterse
 placeholder
+radians
+Roux
+Scipy
+setup
 shortcuts
 Shortcuts
-Scipy
 Spyder
 sympy
-Roux
 vs
