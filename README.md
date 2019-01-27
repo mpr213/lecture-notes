@@ -66,3 +66,6 @@ Faculty of Engineering, Built Environment and Information Technology
 3. Tutorials Outcomes --> Align with the fundamentals
 4. Basic and advanced / extra outcomes --> Make sure that advanced / extra
    outcomes do not interfere with basic outcomes - when in doubt throw it out!
+
+## Repository Resources
+- See `Resources.md`
