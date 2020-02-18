@@ -1,0 +1,21 @@
+1. Section on Libre Office removed,; following sections re-numbered.
+
+Section_2:
+2. Limiting names to lower case letters removed.
+3. Two new cells inserted after
+       import numpy as np
+       lookfor('cos')
+4. Allow strings with single quotation marks.
+5. Remove "without name assignment" bullet
+
+Section 3:
+6. After Multiple Returns: a few cells on Tuples included
+7. After Memory model for functions: a cell on Passing a function object to another function included
+8. Just before Recap: a cell on Preferably not to be used in autograded assignments included
+
+Section 4:
+9. Error in markdown cell, equation defining factorial, corrected
+
+Section 5:
+10. RHS and LHS swapped in bulleted list in markdown cell Array Assignment
+11. Explanation of Fibonacci Series (markdown cell) clarified
